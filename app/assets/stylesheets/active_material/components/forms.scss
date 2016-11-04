@@ -84,9 +84,9 @@ fieldset.actions,
 
   .cancel a {
     @include am-btn-raised;
-  }
-
-  .cancel a {
     @include am-btn;
+    &:hover, &:focus {
+      background: am-darken(am-color(white), 10%);
+    }
   }
 }
