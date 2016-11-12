@@ -32,12 +32,11 @@
   justify-content: flex-end;
   padding: 0 am-unit(2);
 
-  .page,
-  .first,
-  .prev,
-  .next,
-  .last {
+  a, span.current {
     @include am-btn;
     min-width: am-unit(3);
+  }
+  a {
+    color: #1a79b3;
   }
 }
